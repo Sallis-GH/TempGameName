@@ -1,0 +1,25 @@
+--- CONCEPT ---
+*Platformer-2D
+*Level-based
+*Parkour/movement 
+*Themes - Levels, mobs, characters, obstacles
+_______________
+
+Start:
+	Test level, test character, try out different movement scripts and ideas.
+	How to make levels
+	Obstacle concepts
+	
+	Menues, maps
+	
+	
+Ideas:
+	Movement: 
+		Wall-ride
+	Obstacles:
+		
+	Themes:
+		
+	Characters:
+		
+	
