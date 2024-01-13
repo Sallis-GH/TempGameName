@@ -1,3 +1,23 @@
-[gd_scene format=3 uid="uid://bhe2eviueavpl"]
+[gd_scene load_steps=2 format=3 uid="uid://bhe2eviueavpl"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_mpeor"]
 
 [node name="Main" type="Node2D"]
+script = ExtResource("1_mpeor")
+
+[node name="Exit" type="Button" parent="."]
+offset_left = 512.0
+offset_top = 344.0
+offset_right = 640.0
+offset_bottom = 408.0
+text = "Exit"
+
+[node name="Play" type="Button" parent="."]
+offset_left = 512.0
+offset_top = 240.0
+offset_right = 640.0
+offset_bottom = 304.0
+text = "Play"
+
+[connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
